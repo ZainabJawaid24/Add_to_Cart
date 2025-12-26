@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mini Shop App</h1>
+        <button class="btn btn-accent" id="openCart"><img src="./icons8-cart-48.png" width="20" alt="">
+            <sup id="cartCount">0</sup>
+        </button>
+    </header>
+    <main>
+        <div class="grid" id="products"></div>
+    </main>
+    <div id="cartPanel">
+        <h2>Your Cart <span class="closeCart" id="closeCart">&times;</span></h2>
+        <div id="cartItems"></div>
+        <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 1rem 0;">
+        <div style="margin: 1rem 0;">
+            <strong>SubTotal: $<span id="subTotal">0.00</span></strong>
+        </div>
+        <button class="btn btn-accent" id="buyNow">Pay and Download Invoice</button>
+    </div>
+    <div id="invoiceModal" class="modal">
+        <h2>Invoice</h2>
+        <div id="invoiceBody"></div>
+        <button class="btn btn-accent" id="closeInvoice">Close</button>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
