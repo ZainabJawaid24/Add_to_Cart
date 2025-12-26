@@ -3,7 +3,7 @@ import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gsta
 import { getFirestore, doc, setDoc, getDoc, addDoc, collection } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AQ.Ab8RN6K2aZBXs2ujCvP-lFzEY0BzvXv9v7v-kcqi6bpEWYvexg",
+    apiKey: "AIzaSyD7ILsWXB4sU2JEBQ-ofCl7sqFw93qma34",
     authDomain: "firestore-87a07.firebaseapp.com",
     projectId: "firestore-87a07",
     storageBucket: "firestore-87a07.firebasestorage.app",
